@@ -1,0 +1,108 @@
+[0.011s] Invoking command in '/home/user1234/ros2_ws/src/my_lidar_package/build/my_lidar_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/user1234/ros2_ws/src/my_lidar_package/build/my_lidar_package -- -j4 -l4
+[0.055s] [ 25%] [34m[1mAutomatic MOC and UIC for target lidar_display[0m
+[0.396s] [ 25%] Built target lidar_display_autogen
+[0.407s] [35m[1mConsolidate compiler generated dependencies of target lidar_display[0m
+[0.424s] [ 50%] [32mBuilding CXX object CMakeFiles/lidar_display.dir/src/main.cpp.o[0m
+[3.109s] In file included from [01m[K/home/user1234/ros2_ws/src/my_lidar_package/src/main.cpp:21[m[K:
+[3.109s] [01m[K/home/user1234/ros2_ws/src/my_lidar_package/build/my_lidar_package/lidar_display_autogen/include/main.moc:72:6:[m[K [01;31m[Kerror: [m[K‘[01m[KLidarWindow[m[K’ has not been declared
+[3.110s]    72 | void [01;31m[KLidarWindow[m[K::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+[3.110s]       |      [01;31m[K^~~~~~~~~~~[m[K
+[3.112s] [01m[K/home/user1234/ros2_ws/src/my_lidar_package/build/my_lidar_package/lidar_display_autogen/include/main.moc:[m[K In function ‘[01m[Kvoid qt_static_metacall(QObject*, QMetaObject::Call, int, void**)[m[K’:
+[3.112s] [01m[K/home/user1234/ros2_ws/src/my_lidar_package/build/my_lidar_package/lidar_display_autogen/include/main.moc:75:32:[m[K [01;31m[Kerror: [m[K‘[01m[KLidarWindow[m[K’ does not name a type
+[3.112s]    75 |         auto *_t = static_cast<[01;31m[KLidarWindow[m[K *>(_o);
+[3.112s]       |                                [01;31m[K^~~~~~~~~~~[m[K
+[3.112s] [01m[K/home/user1234/ros2_ws/src/my_lidar_package/build/my_lidar_package/lidar_display_autogen/include/main.moc:75:44:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K>[m[K’ before ‘[01m[K*[m[K’ token
+[3.112s]    75 |         auto *_t = static_cast<LidarWindow [01;31m[K*[m[K>(_o);
+[3.112s]       |                                            [01;31m[K^[m[K
+[3.112s] [01m[K/home/user1234/ros2_ws/src/my_lidar_package/build/my_lidar_package/lidar_display_autogen/include/main.moc:75:44:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K([m[K’ before ‘[01m[K*[m[K’ token
+[3.112s]    75 |         auto *_t = static_cast<LidarWindow [01;31m[K*[m[K>(_o);
+[3.112s]       |                                            [01;31m[K^[m[K
+[3.113s]       |                                            [32m[K([m[K
+[3.113s] [01m[K/home/user1234/ros2_ws/src/my_lidar_package/build/my_lidar_package/lidar_display_autogen/include/main.moc:75:45:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+[3.113s]    75 |         auto *_t = static_cast<LidarWindow *[01;31m[K>[m[K(_o);
+[3.113s]       |                                             [01;31m[K^[m[K
+[3.113s] [01m[K/home/user1234/ros2_ws/src/my_lidar_package/build/my_lidar_package/lidar_display_autogen/include/main.moc:75:50:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K;[m[K’ token
+[3.113s]    75 |         auto *_t = static_cast<LidarWindow *>(_o)[01;31m[K;[m[K
+[3.113s]       |                                                  [01;31m[K^[m[K
+[3.113s]       |                                                  [32m[K)[m[K
+[3.113s] [01m[K/home/user1234/ros2_ws/src/my_lidar_package/build/my_lidar_package/lidar_display_autogen/include/main.moc:[m[K At global scope:
+[3.113s] [01m[K/home/user1234/ros2_ws/src/my_lidar_package/build/my_lidar_package/lidar_display_autogen/include/main.moc:87:38:[m[K [01;31m[Kerror: [m[K‘[01m[KLidarWindow[m[K’ has not been declared
+[3.113s]    87 | QT_INIT_METAOBJECT const QMetaObject [01;31m[KLidarWindow[m[K::staticMetaObject = { {
+[3.113s]       |                                      [01;31m[K^~~~~~~~~~~[m[K
+[3.113s] [01m[K/home/user1234/ros2_ws/src/my_lidar_package/build/my_lidar_package/lidar_display_autogen/include/main.moc:97:20:[m[K [01;31m[Kerror: [m[K‘[01m[KLidarWindow[m[K’ has not been declared
+[3.113s]    97 | const QMetaObject *[01;31m[KLidarWindow[m[K::metaObject() const
+[3.113s]       |                    [01;31m[K^~~~~~~~~~~[m[K
+[3.113s] [01m[K/home/user1234/ros2_ws/src/my_lidar_package/build/my_lidar_package/lidar_display_autogen/include/main.moc:97:46:[m[K [01;31m[Kerror: [m[Knon-member function ‘[01m[Kconst QMetaObject* metaObject()[m[K’ cannot have cv-qualifier
+[3.113s]    97 | const QMetaObject *LidarWindow::metaObject() [01;31m[Kconst[m[K
+[3.113s]       |                                              [01;31m[K^~~~~[m[K
+[3.113s] [01m[K/home/user1234/ros2_ws/src/my_lidar_package/build/my_lidar_package/lidar_display_autogen/include/main.moc:[m[K In function ‘[01m[Kconst QMetaObject* metaObject()[m[K’:
+[3.113s] [01m[K/home/user1234/ros2_ws/src/my_lidar_package/build/my_lidar_package/lidar_display_autogen/include/main.moc:99:21:[m[K [01;31m[Kerror: [m[K‘[01m[KQScopedPointer<QObjectData> QObject::d_ptr[m[K’ is protected within this context
+[3.113s]    99 |     return QObject::[01;31m[Kd_ptr[m[K->metaObject ? QObject::d_ptr->dynamicMetaObject() : &staticMetaObject;
+[3.114s]       |                     [01;31m[K^~~~~[m[K
+[3.114s] In file included from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qcoreapplication.h:46[m[K,
+[3.114s]                  from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qapplication.h:44[m[K,
+[3.114s]                  from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtWidgets/QApplication:1[m[K,
+[3.114s]                  from [01m[K/home/user1234/ros2_ws/src/my_lidar_package/src/main.cpp:1[m[K:
+[3.114s] [01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h:450:33:[m[K [01;36m[Knote: [m[Kdeclared protected here
+[3.114s]   450 |     QScopedPointer<QObjectData> [01;36m[Kd_ptr[m[K;
+[3.114s]       |                                 [01;36m[K^~~~~[m[K
+[3.114s] In file included from [01m[K/home/user1234/ros2_ws/src/my_lidar_package/src/main.cpp:21[m[K:
+[3.114s] [01m[K/home/user1234/ros2_ws/src/my_lidar_package/build/my_lidar_package/lidar_display_autogen/include/main.moc:99:21:[m[K [01;31m[Kerror: [m[Kinvalid use of non-static data member ‘[01m[KQObject::d_ptr[m[K’
+[3.114s]    99 |     return QObject::[01;31m[Kd_ptr[m[K->metaObject ? QObject::d_ptr->dynamicMetaObject() : &staticMetaObject;
+[3.114s]       |                     [01;31m[K^~~~~[m[K
+[3.114s] In file included from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qcoreapplication.h:46[m[K,
+[3.114s]                  from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qapplication.h:44[m[K,
+[3.114s]                  from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtWidgets/QApplication:1[m[K,
+[3.115s]                  from [01m[K/home/user1234/ros2_ws/src/my_lidar_package/src/main.cpp:1[m[K:
+[3.115s] [01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h:450:33:[m[K [01;36m[Knote: [m[Kdeclared here
+[3.115s]   450 |     QScopedPointer<QObjectData> [01;36m[Kd_ptr[m[K;
+[3.115s]       |                                 [01;36m[K^~~~~[m[K
+[3.115s] In file included from [01m[K/home/user1234/ros2_ws/src/my_lidar_package/src/main.cpp:21[m[K:
+[3.115s] [01m[K/home/user1234/ros2_ws/src/my_lidar_package/build/my_lidar_package/lidar_display_autogen/include/main.moc:99:50:[m[K [01;31m[Kerror: [m[K‘[01m[KQScopedPointer<QObjectData> QObject::d_ptr[m[K’ is protected within this context
+[3.115s]    99 |     return QObject::d_ptr->metaObject ? QObject::[01;31m[Kd_ptr[m[K->dynamicMetaObject() : &staticMetaObject;
+[3.115s]       |                                                  [01;31m[K^~~~~[m[K
+[3.115s] In file included from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qcoreapplication.h:46[m[K,
+[3.115s]                  from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qapplication.h:44[m[K,
+[3.115s]                  from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtWidgets/QApplication:1[m[K,
+[3.115s]                  from [01m[K/home/user1234/ros2_ws/src/my_lidar_package/src/main.cpp:1[m[K:
+[3.115s] [01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h:450:33:[m[K [01;36m[Knote: [m[Kdeclared protected here
+[3.115s]   450 |     QScopedPointer<QObjectData> [01;36m[Kd_ptr[m[K;
+[3.115s]       |                                 [01;36m[K^~~~~[m[K
+[3.115s] In file included from [01m[K/home/user1234/ros2_ws/src/my_lidar_package/src/main.cpp:21[m[K:
+[3.115s] [01m[K/home/user1234/ros2_ws/src/my_lidar_package/build/my_lidar_package/lidar_display_autogen/include/main.moc:99:50:[m[K [01;31m[Kerror: [m[Kinvalid use of non-static data member ‘[01m[KQObject::d_ptr[m[K’
+[3.116s]    99 |     return QObject::d_ptr->metaObject ? QObject::[01;31m[Kd_ptr[m[K->dynamicMetaObject() : &staticMetaObject;
+[3.116s]       |                                                  [01;31m[K^~~~~[m[K
+[3.116s] In file included from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qcoreapplication.h:46[m[K,
+[3.116s]                  from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qapplication.h:44[m[K,
+[3.116s]                  from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtWidgets/QApplication:1[m[K,
+[3.116s]                  from [01m[K/home/user1234/ros2_ws/src/my_lidar_package/src/main.cpp:1[m[K:
+[3.116s] [01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h:450:33:[m[K [01;36m[Knote: [m[Kdeclared here
+[3.117s]   450 |     QScopedPointer<QObjectData> [01;36m[Kd_ptr[m[K;
+[3.117s]       |                                 [01;36m[K^~~~~[m[K
+[3.117s] In file included from [01m[K/home/user1234/ros2_ws/src/my_lidar_package/src/main.cpp:21[m[K:
+[3.117s] [01m[K/home/user1234/ros2_ws/src/my_lidar_package/build/my_lidar_package/lidar_display_autogen/include/main.moc:[m[K At global scope:
+[3.117s] [01m[K/home/user1234/ros2_ws/src/my_lidar_package/build/my_lidar_package/lidar_display_autogen/include/main.moc:102:7:[m[K [01;31m[Kerror: [m[K‘[01m[KLidarWindow[m[K’ has not been declared
+[3.117s]   102 | void *[01;31m[KLidarWindow[m[K::qt_metacast(const char *_clname)
+[3.117s]       |       [01;31m[K^~~~~~~~~~~[m[K
+[3.117s] [01m[K/home/user1234/ros2_ws/src/my_lidar_package/build/my_lidar_package/lidar_display_autogen/include/main.moc:[m[K In function ‘[01m[Kvoid* qt_metacast(const char*)[m[K’:
+[3.117s] [01m[K/home/user1234/ros2_ws/src/my_lidar_package/build/my_lidar_package/lidar_display_autogen/include/main.moc:106:35:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[3.117s]   106 |         return static_cast<void*>([01;31m[Kthis[m[K);
+[3.117s]       |                                   [01;31m[K^~~~[m[K
+[3.117s] [01m[K/home/user1234/ros2_ws/src/my_lidar_package/build/my_lidar_package/lidar_display_autogen/include/main.moc:107:36:[m[K [01;31m[Kerror: [m[Kcannot call member function ‘[01m[Kvirtual void* QMainWindow::qt_metacast(const char*)[m[K’ without object
+[3.117s]   107 |     return [01;31m[KQMainWindow::qt_metacast(_clname)[m[K;
+[3.117s]       |            [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~[m[K
+[3.117s] [01m[K/home/user1234/ros2_ws/src/my_lidar_package/build/my_lidar_package/lidar_display_autogen/include/main.moc:[m[K At global scope:
+[3.117s] [01m[K/home/user1234/ros2_ws/src/my_lidar_package/build/my_lidar_package/lidar_display_autogen/include/main.moc:110:5:[m[K [01;31m[Kerror: [m[K‘[01m[KLidarWindow[m[K’ has not been declared
+[3.117s]   110 | int [01;31m[KLidarWindow[m[K::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+[3.117s]       |     [01;31m[K^~~~~~~~~~~[m[K
+[3.118s] [01m[K/home/user1234/ros2_ws/src/my_lidar_package/build/my_lidar_package/lidar_display_autogen/include/main.moc:[m[K In function ‘[01m[Kint qt_metacall(QMetaObject::Call, int, void**)[m[K’:
+[3.118s] [01m[K/home/user1234/ros2_ws/src/my_lidar_package/build/my_lidar_package/lidar_display_autogen/include/main.moc:112:35:[m[K [01;31m[Kerror: [m[Kcannot call member function ‘[01m[Kvirtual int QMainWindow::qt_metacall(QMetaObject::Call, int, void**)[m[K’ without object
+[3.118s]   112 |     _id = [01;31m[KQMainWindow::qt_metacall(_c, _id, _a)[m[K;
+[3.118s]       |           [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~[m[K
+[3.118s] [01m[K/home/user1234/ros2_ws/src/my_lidar_package/build/my_lidar_package/lidar_display_autogen/include/main.moc:117:32:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[3.118s]   117 |             qt_static_metacall([01;31m[Kthis[m[K, _c, _id, _a);
+[3.118s]       |                                [01;31m[K^~~~[m[K
+[6.546s] gmake[2]: *** [CMakeFiles/lidar_display.dir/build.make:90: CMakeFiles/lidar_display.dir/src/main.cpp.o] Error 1
+[6.547s] gmake[1]: *** [CMakeFiles/Makefile2:138: CMakeFiles/lidar_display.dir/all] Error 2
+[6.547s] gmake: *** [Makefile:146: all] Error 2
+[6.549s] Invoked command in '/home/user1234/ros2_ws/src/my_lidar_package/build/my_lidar_package' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/user1234/ros2_ws/src/my_lidar_package/build/my_lidar_package -- -j4 -l4

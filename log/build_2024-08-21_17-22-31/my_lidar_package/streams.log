@@ -1,0 +1,28 @@
+[0.010s] Invoking command in '/home/user1234/ros2_ws/src/my_lidar_package/build/my_lidar_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/user1234/ros2_ws/src/my_lidar_package/build/my_lidar_package -- -j4 -l4
+[0.057s] [ 25%] [34m[1mAutomatic MOC and UIC for target lidar_display[0m
+[0.368s] [ 25%] Built target lidar_display_autogen
+[0.381s] [35m[1mConsolidate compiler generated dependencies of target lidar_display[0m
+[0.396s] [ 50%] [32mBuilding CXX object CMakeFiles/lidar_display.dir/src/main.cpp.o[0m
+[10.926s] [ 75%] [32m[1mLinking CXX executable lidar_display[0m
+[12.224s] [100%] Built target lidar_display
+[12.233s] Invoked command in '/home/user1234/ros2_ws/src/my_lidar_package/build/my_lidar_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/user1234/ros2_ws/src/my_lidar_package/build/my_lidar_package -- -j4 -l4
+[12.267s] Invoking command in '/home/user1234/ros2_ws/src/my_lidar_package/build/my_lidar_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/user1234/ros2_ws/src/my_lidar_package/build/my_lidar_package
+[12.273s] -- Install configuration: ""
+[12.273s] -- Installing: /home/user1234/ros2_ws/src/my_lidar_package/install/my_lidar_package/lib/my_lidar_package/lidar_display
+[12.278s] -- Set runtime path of "/home/user1234/ros2_ws/src/my_lidar_package/install/my_lidar_package/lib/my_lidar_package/lidar_display" to ""
+[12.278s] -- Up-to-date: /home/user1234/ros2_ws/src/my_lidar_package/install/my_lidar_package/share/ament_index/resource_index/package_run_dependencies/my_lidar_package
+[12.278s] -- Up-to-date: /home/user1234/ros2_ws/src/my_lidar_package/install/my_lidar_package/share/ament_index/resource_index/parent_prefix_path/my_lidar_package
+[12.278s] -- Up-to-date: /home/user1234/ros2_ws/src/my_lidar_package/install/my_lidar_package/share/my_lidar_package/environment/ament_prefix_path.sh
+[12.278s] -- Up-to-date: /home/user1234/ros2_ws/src/my_lidar_package/install/my_lidar_package/share/my_lidar_package/environment/ament_prefix_path.dsv
+[12.278s] -- Up-to-date: /home/user1234/ros2_ws/src/my_lidar_package/install/my_lidar_package/share/my_lidar_package/environment/path.sh
+[12.278s] -- Up-to-date: /home/user1234/ros2_ws/src/my_lidar_package/install/my_lidar_package/share/my_lidar_package/environment/path.dsv
+[12.278s] -- Up-to-date: /home/user1234/ros2_ws/src/my_lidar_package/install/my_lidar_package/share/my_lidar_package/local_setup.bash
+[12.278s] -- Up-to-date: /home/user1234/ros2_ws/src/my_lidar_package/install/my_lidar_package/share/my_lidar_package/local_setup.sh
+[12.278s] -- Up-to-date: /home/user1234/ros2_ws/src/my_lidar_package/install/my_lidar_package/share/my_lidar_package/local_setup.zsh
+[12.278s] -- Up-to-date: /home/user1234/ros2_ws/src/my_lidar_package/install/my_lidar_package/share/my_lidar_package/local_setup.dsv
+[12.279s] -- Installing: /home/user1234/ros2_ws/src/my_lidar_package/install/my_lidar_package/share/my_lidar_package/package.dsv
+[12.279s] -- Up-to-date: /home/user1234/ros2_ws/src/my_lidar_package/install/my_lidar_package/share/ament_index/resource_index/packages/my_lidar_package
+[12.279s] -- Up-to-date: /home/user1234/ros2_ws/src/my_lidar_package/install/my_lidar_package/share/my_lidar_package/cmake/my_lidar_packageConfig.cmake
+[12.279s] -- Up-to-date: /home/user1234/ros2_ws/src/my_lidar_package/install/my_lidar_package/share/my_lidar_package/cmake/my_lidar_packageConfig-version.cmake
+[12.279s] -- Up-to-date: /home/user1234/ros2_ws/src/my_lidar_package/install/my_lidar_package/share/my_lidar_package/package.xml
+[12.281s] Invoked command in '/home/user1234/ros2_ws/src/my_lidar_package/build/my_lidar_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/user1234/ros2_ws/src/my_lidar_package/build/my_lidar_package

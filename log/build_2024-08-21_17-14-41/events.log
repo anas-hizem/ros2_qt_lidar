@@ -1,0 +1,177 @@
+[0.000000] (-) TimerEvent: {}
+[0.000131] (my_lidar_package) JobQueued: {'identifier': 'my_lidar_package', 'dependencies': OrderedDict()}
+[0.000155] (my_lidar_package) JobStarted: {'identifier': 'my_lidar_package'}
+[0.006717] (my_lidar_package) JobProgress: {'identifier': 'my_lidar_package', 'progress': 'cmake'}
+[0.007709] (my_lidar_package) JobProgress: {'identifier': 'my_lidar_package', 'progress': 'build'}
+[0.007745] (my_lidar_package) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/user1234/ros2_ws/src/my_lidar_package/build/my_lidar_package', '--', '-j4', '-l4'], 'cwd': '/home/user1234/ros2_ws/src/my_lidar_package/build/my_lidar_package', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'user1234'), ('LC_TIME', 'ar_TN.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/user1234'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ar_TN.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1516'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=1f6e9c5c8ce19c4e7dd29eac66c5a967'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/user1234/ros2_ws/src/my_lidar_package/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'user1234'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'user1234'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/user1234/Qt/Tools/QtCreator/bin'), ('SESSION_MANAGER', 'local/user1234-ThinkStation-P330:@/tmp/.ICE-unix/1516,unix/user1234-ThinkStation-P330:/tmp/.ICE-unix/1516'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ar_TN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/d82d0bcc_98de_4a3d_a9e4_9963de2494de'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ar_TN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.155'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/user1234/ros2_ws/src/my_lidar_package/install/my_lidar_package:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ar_TN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ar_TN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ar_TN.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/user1234/ros2_ws/src/my_lidar_package/build/my_lidar_package'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=1f6e9c5c8ce19c4e7dd29eac66c5a967'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ar_TN.UTF-8'), ('LC_PAPER', 'ar_TN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/user1234/ros2_ws/src/my_lidar_package/install/my_lidar_package:/opt/ros/humble')]), 'shell': False}
+[0.054726] (my_lidar_package) StdoutLine: {'line': b'[ 25%] \x1b[34m\x1b[1mAutomatic MOC and UIC for target lidar_display\x1b[0m\n'}
+[0.099652] (-) TimerEvent: {}
+[0.199899] (-) TimerEvent: {}
+[0.300177] (-) TimerEvent: {}
+[0.364175] (my_lidar_package) StdoutLine: {'line': b'[ 25%] Built target lidar_display_autogen\n'}
+[0.387398] (my_lidar_package) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/lidar_display.dir/src/main.cpp.o\x1b[0m\n'}
+[0.400291] (-) TimerEvent: {}
+[0.500544] (-) TimerEvent: {}
+[0.600801] (-) TimerEvent: {}
+[0.701031] (-) TimerEvent: {}
+[0.801239] (-) TimerEvent: {}
+[0.901517] (-) TimerEvent: {}
+[1.001765] (-) TimerEvent: {}
+[1.102015] (-) TimerEvent: {}
+[1.202288] (-) TimerEvent: {}
+[1.302526] (-) TimerEvent: {}
+[1.402747] (-) TimerEvent: {}
+[1.503056] (-) TimerEvent: {}
+[1.603432] (-) TimerEvent: {}
+[1.703672] (-) TimerEvent: {}
+[1.803911] (-) TimerEvent: {}
+[1.904151] (-) TimerEvent: {}
+[2.004383] (-) TimerEvent: {}
+[2.104628] (-) TimerEvent: {}
+[2.204839] (-) TimerEvent: {}
+[2.305051] (-) TimerEvent: {}
+[2.405266] (-) TimerEvent: {}
+[2.505504] (-) TimerEvent: {}
+[2.605838] (-) TimerEvent: {}
+[2.706049] (-) TimerEvent: {}
+[2.806290] (-) TimerEvent: {}
+[2.906528] (-) TimerEvent: {}
+[2.976396] (my_lidar_package) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/user1234/ros2_ws/src/my_lidar_package/src/main.cpp:20\x1b[m\x1b[K:\n'}
+[2.976537] (my_lidar_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/user1234/ros2_ws/src/my_lidar_package/build/my_lidar_package/lidar_display_autogen/include/main.moc:65:6:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KLidarWindow\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[2.976594] (my_lidar_package) StderrLine: {'line': b'   65 | void \x1b[01;31m\x1b[KLidarWindow\x1b[m\x1b[K::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)\n'}
+[2.976654] (my_lidar_package) StderrLine: {'line': b'      |      \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.978871] (my_lidar_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/user1234/ros2_ws/src/my_lidar_package/build/my_lidar_package/lidar_display_autogen/include/main.moc:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kvoid qt_static_metacall(QObject*, QMetaObject::Call, int, void**)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.978964] (my_lidar_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/user1234/ros2_ws/src/my_lidar_package/build/my_lidar_package/lidar_display_autogen/include/main.moc:68:32:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KLidarWindow\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[2.979018] (my_lidar_package) StderrLine: {'line': b'   68 |         auto *_t = static_cast<\x1b[01;31m\x1b[KLidarWindow\x1b[m\x1b[K *>(_o);\n'}
+[2.979066] (my_lidar_package) StderrLine: {'line': b'      |                                \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.979119] (my_lidar_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/user1234/ros2_ws/src/my_lidar_package/build/my_lidar_package/lidar_display_autogen/include/main.moc:68:44:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K>\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[K*\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[2.979165] (my_lidar_package) StderrLine: {'line': b'   68 |         auto *_t = static_cast<LidarWindow \x1b[01;31m\x1b[K*\x1b[m\x1b[K>(_o);\n'}
+[2.979209] (my_lidar_package) StderrLine: {'line': b'      |                                            \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.979252] (my_lidar_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/user1234/ros2_ws/src/my_lidar_package/build/my_lidar_package/lidar_display_autogen/include/main.moc:68:44:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K(\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[K*\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[2.979296] (my_lidar_package) StderrLine: {'line': b'   68 |         auto *_t = static_cast<LidarWindow \x1b[01;31m\x1b[K*\x1b[m\x1b[K>(_o);\n'}
+[2.979339] (my_lidar_package) StderrLine: {'line': b'      |                                            \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.979382] (my_lidar_package) StderrLine: {'line': b'      |                                            \x1b[32m\x1b[K(\x1b[m\x1b[K\n'}
+[2.979424] (my_lidar_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/user1234/ros2_ws/src/my_lidar_package/build/my_lidar_package/lidar_display_autogen/include/main.moc:68:45:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected primary-expression before \xe2\x80\x98\x1b[01m\x1b[K>\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[2.979468] (my_lidar_package) StderrLine: {'line': b'   68 |         auto *_t = static_cast<LidarWindow *\x1b[01;31m\x1b[K>\x1b[m\x1b[K(_o);\n'}
+[2.979511] (my_lidar_package) StderrLine: {'line': b'      |                                             \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.979554] (my_lidar_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/user1234/ros2_ws/src/my_lidar_package/build/my_lidar_package/lidar_display_autogen/include/main.moc:68:50:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K)\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[2.979601] (my_lidar_package) StderrLine: {'line': b'   68 |         auto *_t = static_cast<LidarWindow *>(_o)\x1b[01;31m\x1b[K;\x1b[m\x1b[K\n'}
+[2.979650] (my_lidar_package) StderrLine: {'line': b'      |                                                  \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.979694] (my_lidar_package) StderrLine: {'line': b'      |                                                  \x1b[32m\x1b[K)\x1b[m\x1b[K\n'}
+[2.979738] (my_lidar_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/user1234/ros2_ws/src/my_lidar_package/build/my_lidar_package/lidar_display_autogen/include/main.moc:\x1b[m\x1b[K At global scope:\n'}
+[2.979783] (my_lidar_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/user1234/ros2_ws/src/my_lidar_package/build/my_lidar_package/lidar_display_autogen/include/main.moc:78:38:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KLidarWindow\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[2.979828] (my_lidar_package) StderrLine: {'line': b'   78 | QT_INIT_METAOBJECT const QMetaObject \x1b[01;31m\x1b[KLidarWindow\x1b[m\x1b[K::staticMetaObject = { {\n'}
+[2.979872] (my_lidar_package) StderrLine: {'line': b'      |                                      \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.980132] (my_lidar_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/user1234/ros2_ws/src/my_lidar_package/build/my_lidar_package/lidar_display_autogen/include/main.moc:88:20:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KLidarWindow\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[2.980206] (my_lidar_package) StderrLine: {'line': b'   88 | const QMetaObject *\x1b[01;31m\x1b[KLidarWindow\x1b[m\x1b[K::metaObject() const\n'}
+[2.980268] (my_lidar_package) StderrLine: {'line': b'      |                    \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.980317] (my_lidar_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/user1234/ros2_ws/src/my_lidar_package/build/my_lidar_package/lidar_display_autogen/include/main.moc:88:46:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Knon-member function \xe2\x80\x98\x1b[01m\x1b[Kconst QMetaObject* metaObject()\x1b[m\x1b[K\xe2\x80\x99 cannot have cv-qualifier\n'}
+[2.980365] (my_lidar_package) StderrLine: {'line': b'   88 | const QMetaObject *LidarWindow::metaObject() \x1b[01;31m\x1b[Kconst\x1b[m\x1b[K\n'}
+[2.980409] (my_lidar_package) StderrLine: {'line': b'      |                                              \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[2.980453] (my_lidar_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/user1234/ros2_ws/src/my_lidar_package/build/my_lidar_package/lidar_display_autogen/include/main.moc:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kconst QMetaObject* metaObject()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.980502] (my_lidar_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/user1234/ros2_ws/src/my_lidar_package/build/my_lidar_package/lidar_display_autogen/include/main.moc:90:21:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KQScopedPointer<QObjectData> QObject::d_ptr\x1b[m\x1b[K\xe2\x80\x99 is protected within this context\n'}
+[2.980550] (my_lidar_package) StderrLine: {'line': b'   90 |     return QObject::\x1b[01;31m\x1b[Kd_ptr\x1b[m\x1b[K->metaObject ? QObject::d_ptr->dynamicMetaObject() : &staticMetaObject;\n'}
+[2.980593] (my_lidar_package) StderrLine: {'line': b'      |                     \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[2.980647] (my_lidar_package) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qcoreapplication.h:46\x1b[m\x1b[K,\n'}
+[2.980691] (my_lidar_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qapplication.h:44\x1b[m\x1b[K,\n'}
+[2.980734] (my_lidar_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/qt5/QtWidgets/QApplication:1\x1b[m\x1b[K,\n'}
+[2.980777] (my_lidar_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/user1234/ros2_ws/src/my_lidar_package/src/main.cpp:1\x1b[m\x1b[K:\n'}
+[2.980819] (my_lidar_package) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h:450:33:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared protected here\n'}
+[2.980862] (my_lidar_package) StderrLine: {'line': b'  450 |     QScopedPointer<QObjectData> \x1b[01;36m\x1b[Kd_ptr\x1b[m\x1b[K;\n'}
+[2.980904] (my_lidar_package) StderrLine: {'line': b'      |                                 \x1b[01;36m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[2.980946] (my_lidar_package) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/user1234/ros2_ws/src/my_lidar_package/src/main.cpp:20\x1b[m\x1b[K:\n'}
+[2.980989] (my_lidar_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/user1234/ros2_ws/src/my_lidar_package/build/my_lidar_package/lidar_display_autogen/include/main.moc:90:21:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of non-static data member \xe2\x80\x98\x1b[01m\x1b[KQObject::d_ptr\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.981032] (my_lidar_package) StderrLine: {'line': b'   90 |     return QObject::\x1b[01;31m\x1b[Kd_ptr\x1b[m\x1b[K->metaObject ? QObject::d_ptr->dynamicMetaObject() : &staticMetaObject;\n'}
+[2.981165] (my_lidar_package) StderrLine: {'line': b'      |                     \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[2.981208] (my_lidar_package) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qcoreapplication.h:46\x1b[m\x1b[K,\n'}
+[2.981251] (my_lidar_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qapplication.h:44\x1b[m\x1b[K,\n'}
+[2.981293] (my_lidar_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/qt5/QtWidgets/QApplication:1\x1b[m\x1b[K,\n'}
+[2.981340] (my_lidar_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/user1234/ros2_ws/src/my_lidar_package/src/main.cpp:1\x1b[m\x1b[K:\n'}
+[2.981382] (my_lidar_package) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h:450:33:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[2.981425] (my_lidar_package) StderrLine: {'line': b'  450 |     QScopedPointer<QObjectData> \x1b[01;36m\x1b[Kd_ptr\x1b[m\x1b[K;\n'}
+[2.981467] (my_lidar_package) StderrLine: {'line': b'      |                                 \x1b[01;36m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[2.981509] (my_lidar_package) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/user1234/ros2_ws/src/my_lidar_package/src/main.cpp:20\x1b[m\x1b[K:\n'}
+[2.981552] (my_lidar_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/user1234/ros2_ws/src/my_lidar_package/build/my_lidar_package/lidar_display_autogen/include/main.moc:90:50:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KQScopedPointer<QObjectData> QObject::d_ptr\x1b[m\x1b[K\xe2\x80\x99 is protected within this context\n'}
+[2.981598] (my_lidar_package) StderrLine: {'line': b'   90 |     return QObject::d_ptr->metaObject ? QObject::\x1b[01;31m\x1b[Kd_ptr\x1b[m\x1b[K->dynamicMetaObject() : &staticMetaObject;\n'}
+[2.981647] (my_lidar_package) StderrLine: {'line': b'      |                                                  \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[2.981690] (my_lidar_package) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qcoreapplication.h:46\x1b[m\x1b[K,\n'}
+[2.981736] (my_lidar_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qapplication.h:44\x1b[m\x1b[K,\n'}
+[2.981779] (my_lidar_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/qt5/QtWidgets/QApplication:1\x1b[m\x1b[K,\n'}
+[2.981821] (my_lidar_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/user1234/ros2_ws/src/my_lidar_package/src/main.cpp:1\x1b[m\x1b[K:\n'}
+[2.981867] (my_lidar_package) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h:450:33:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared protected here\n'}
+[2.981911] (my_lidar_package) StderrLine: {'line': b'  450 |     QScopedPointer<QObjectData> \x1b[01;36m\x1b[Kd_ptr\x1b[m\x1b[K;\n'}
+[2.981953] (my_lidar_package) StderrLine: {'line': b'      |                                 \x1b[01;36m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[2.981997] (my_lidar_package) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/user1234/ros2_ws/src/my_lidar_package/src/main.cpp:20\x1b[m\x1b[K:\n'}
+[2.982039] (my_lidar_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/user1234/ros2_ws/src/my_lidar_package/build/my_lidar_package/lidar_display_autogen/include/main.moc:90:50:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of non-static data member \xe2\x80\x98\x1b[01m\x1b[KQObject::d_ptr\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.982083] (my_lidar_package) StderrLine: {'line': b'   90 |     return QObject::d_ptr->metaObject ? QObject::\x1b[01;31m\x1b[Kd_ptr\x1b[m\x1b[K->dynamicMetaObject() : &staticMetaObject;\n'}
+[2.982127] (my_lidar_package) StderrLine: {'line': b'      |                                                  \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[2.982169] (my_lidar_package) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qcoreapplication.h:46\x1b[m\x1b[K,\n'}
+[2.982215] (my_lidar_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qapplication.h:44\x1b[m\x1b[K,\n'}
+[2.982257] (my_lidar_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/qt5/QtWidgets/QApplication:1\x1b[m\x1b[K,\n'}
+[2.982308] (my_lidar_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/user1234/ros2_ws/src/my_lidar_package/src/main.cpp:1\x1b[m\x1b[K:\n'}
+[2.982350] (my_lidar_package) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h:450:33:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[2.982393] (my_lidar_package) StderrLine: {'line': b'  450 |     QScopedPointer<QObjectData> \x1b[01;36m\x1b[Kd_ptr\x1b[m\x1b[K;\n'}
+[2.982435] (my_lidar_package) StderrLine: {'line': b'      |                                 \x1b[01;36m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[2.982478] (my_lidar_package) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/user1234/ros2_ws/src/my_lidar_package/src/main.cpp:20\x1b[m\x1b[K:\n'}
+[2.982521] (my_lidar_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/user1234/ros2_ws/src/my_lidar_package/build/my_lidar_package/lidar_display_autogen/include/main.moc:\x1b[m\x1b[K At global scope:\n'}
+[2.982565] (my_lidar_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/user1234/ros2_ws/src/my_lidar_package/build/my_lidar_package/lidar_display_autogen/include/main.moc:93:7:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KLidarWindow\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[2.982615] (my_lidar_package) StderrLine: {'line': b'   93 | void *\x1b[01;31m\x1b[KLidarWindow\x1b[m\x1b[K::qt_metacast(const char *_clname)\n'}
+[2.982662] (my_lidar_package) StderrLine: {'line': b'      |       \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.982705] (my_lidar_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/user1234/ros2_ws/src/my_lidar_package/build/my_lidar_package/lidar_display_autogen/include/main.moc:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kvoid* qt_metacast(const char*)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.982749] (my_lidar_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/user1234/ros2_ws/src/my_lidar_package/build/my_lidar_package/lidar_display_autogen/include/main.moc:97:35:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of \xe2\x80\x98\x1b[01m\x1b[Kthis\x1b[m\x1b[K\xe2\x80\x99 in non-member function\n'}
+[2.982792] (my_lidar_package) StderrLine: {'line': b'   97 |         return static_cast<void*>(\x1b[01;31m\x1b[Kthis\x1b[m\x1b[K);\n'}
+[2.982834] (my_lidar_package) StderrLine: {'line': b'      |                                   \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[2.982876] (my_lidar_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/user1234/ros2_ws/src/my_lidar_package/build/my_lidar_package/lidar_display_autogen/include/main.moc:98:36:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kcannot call member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual void* QMainWindow::qt_metacast(const char*)\x1b[m\x1b[K\xe2\x80\x99 without object\n'}
+[2.982922] (my_lidar_package) StderrLine: {'line': b'   98 |     return \x1b[01;31m\x1b[KQMainWindow::qt_metacast(_clname)\x1b[m\x1b[K;\n'}
+[2.982964] (my_lidar_package) StderrLine: {'line': b'      |            \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~\x1b[m\x1b[K\n'}
+[2.983007] (my_lidar_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/user1234/ros2_ws/src/my_lidar_package/build/my_lidar_package/lidar_display_autogen/include/main.moc:\x1b[m\x1b[K At global scope:\n'}
+[2.983049] (my_lidar_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/user1234/ros2_ws/src/my_lidar_package/build/my_lidar_package/lidar_display_autogen/include/main.moc:101:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KLidarWindow\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[2.983093] (my_lidar_package) StderrLine: {'line': b'  101 | int \x1b[01;31m\x1b[KLidarWindow\x1b[m\x1b[K::qt_metacall(QMetaObject::Call _c, int _id, void **_a)\n'}
+[2.983135] (my_lidar_package) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.983177] (my_lidar_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/user1234/ros2_ws/src/my_lidar_package/build/my_lidar_package/lidar_display_autogen/include/main.moc:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint qt_metacall(QMetaObject::Call, int, void**)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.983226] (my_lidar_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/user1234/ros2_ws/src/my_lidar_package/build/my_lidar_package/lidar_display_autogen/include/main.moc:103:35:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kcannot call member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual int QMainWindow::qt_metacall(QMetaObject::Call, int, void**)\x1b[m\x1b[K\xe2\x80\x99 without object\n'}
+[2.983273] (my_lidar_package) StderrLine: {'line': b'  103 |     _id = \x1b[01;31m\x1b[KQMainWindow::qt_metacall(_c, _id, _a)\x1b[m\x1b[K;\n'}
+[2.983316] (my_lidar_package) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.983471] (my_lidar_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/user1234/ros2_ws/src/my_lidar_package/build/my_lidar_package/lidar_display_autogen/include/main.moc:108:32:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of \xe2\x80\x98\x1b[01m\x1b[Kthis\x1b[m\x1b[K\xe2\x80\x99 in non-member function\n'}
+[2.983519] (my_lidar_package) StderrLine: {'line': b'  108 |             qt_static_metacall(\x1b[01;31m\x1b[Kthis\x1b[m\x1b[K, _c, _id, _a);\n'}
+[2.983562] (my_lidar_package) StderrLine: {'line': b'      |                                \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[3.006647] (-) TimerEvent: {}
+[3.106854] (-) TimerEvent: {}
+[3.207062] (-) TimerEvent: {}
+[3.307302] (-) TimerEvent: {}
+[3.407541] (-) TimerEvent: {}
+[3.507815] (-) TimerEvent: {}
+[3.608051] (-) TimerEvent: {}
+[3.708293] (-) TimerEvent: {}
+[3.808537] (-) TimerEvent: {}
+[3.908747] (-) TimerEvent: {}
+[4.008966] (-) TimerEvent: {}
+[4.109256] (-) TimerEvent: {}
+[4.209543] (-) TimerEvent: {}
+[4.310767] (-) TimerEvent: {}
+[4.410975] (-) TimerEvent: {}
+[4.511215] (-) TimerEvent: {}
+[4.611456] (-) TimerEvent: {}
+[4.711640] (-) TimerEvent: {}
+[4.811871] (-) TimerEvent: {}
+[4.912081] (-) TimerEvent: {}
+[5.012293] (-) TimerEvent: {}
+[5.112535] (-) TimerEvent: {}
+[5.212783] (-) TimerEvent: {}
+[5.313005] (-) TimerEvent: {}
+[5.413220] (-) TimerEvent: {}
+[5.513475] (-) TimerEvent: {}
+[5.613766] (-) TimerEvent: {}
+[5.713990] (-) TimerEvent: {}
+[5.814229] (-) TimerEvent: {}
+[5.914498] (-) TimerEvent: {}
+[6.014745] (-) TimerEvent: {}
+[6.115031] (-) TimerEvent: {}
+[6.215290] (-) TimerEvent: {}
+[6.315593] (-) TimerEvent: {}
+[6.329542] (my_lidar_package) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/lidar_display.dir/build.make:90: CMakeFiles/lidar_display.dir/src/main.cpp.o] Error 1\n'}
+[6.329806] (my_lidar_package) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:138: CMakeFiles/lidar_display.dir/all] Error 2\n'}
+[6.329971] (my_lidar_package) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[6.331667] (my_lidar_package) CommandEnded: {'returncode': 2}
+[6.364607] (my_lidar_package) JobEnded: {'identifier': 'my_lidar_package', 'rc': 2}
+[6.375318] (-) EventReactorShutdown: {}

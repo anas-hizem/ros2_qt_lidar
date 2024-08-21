@@ -1,0 +1,4 @@
+Invoking command in '/home/user1234/ros2_ws/src/my_lidar_package/build/my_lidar_package': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/user1234/ros2_ws/src/my_lidar_package/build/my_lidar_package -- -j4 -l4
+Invoked command in '/home/user1234/ros2_ws/src/my_lidar_package/build/my_lidar_package' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/user1234/ros2_ws/src/my_lidar_package/build/my_lidar_package -- -j4 -l4
+Invoking command in '/home/user1234/ros2_ws/src/my_lidar_package/build/my_lidar_package': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/user1234/ros2_ws/src/my_lidar_package/build/my_lidar_package
+Invoked command in '/home/user1234/ros2_ws/src/my_lidar_package/build/my_lidar_package' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/user1234/ros2_ws/src/my_lidar_package/build/my_lidar_package
